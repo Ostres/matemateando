@@ -147,6 +147,10 @@ main section ol li {
     justify-content: center;
 }
 
+.contenedor{
+    width: 90%;
+}
+
 
 .boton {
     text-decoration: none;

@@ -4,8 +4,7 @@ header{
     nav{
         ul{
             list-style: none;
-            display: flex;
-            justify-content: space-between;
+            @include flex (flex, space-between, center)
             li{
                 margin: 5px;
                 a{
@@ -16,8 +15,7 @@ header{
         }
     }
     section{
-        display: flex;
-        justify-content: space-between;
+        @include flex (flex, space-between, center)
         img{
             height: 120px;
             width: 120px;

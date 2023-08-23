@@ -2,7 +2,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: black;
+    background-color: $color-primario;
     div{
         h2{
             color: $color-terciario;

@@ -164,3 +164,24 @@ footer {
     font-weight: lighter;
     text-decoration: underline;
     left: 10px; }
+
+@media screen and (max-width: 577px) {
+  .card {
+    width: 70%;
+    margin: 0 auto; } }
+
+@media screen and (max-width: 680px) {
+  .title-como-comprar {
+    font-size: 35px;
+    text-align: center;
+    font-style: oblique; } }
+
+@media screen and (max-width: 770px) {
+  .hero h2 {
+    font-size: 42px; }
+  .hero p {
+    font-size: 15px; }
+  main section h2 {
+    font-size: 22px; }
+  main section p {
+    font-size: 15px; } }

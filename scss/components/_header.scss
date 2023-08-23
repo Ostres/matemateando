@@ -1,5 +1,5 @@
 header{
-    background-color: black;
+    background-color: $color-primario;
     z-index: 10;
     nav{
         ul{
@@ -10,7 +10,7 @@ header{
                 margin: 5px;
                 a{
                     text-decoration: none;
-                    color: beige;
+                    color: $color-terciario;
                 }
             }
         }

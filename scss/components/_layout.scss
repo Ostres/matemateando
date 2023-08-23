@@ -6,11 +6,11 @@
     background-attachment: fixed;
     width: 100%;
     height: 80vh;
-    color: beige;
+    color: $color-terciario;
     text-align: center;
     h2{
         font-size: 50px;
-        border: 5px beige solid;
+        border: 5px $color-terciario solid;
         display: inline-block;
         padding: 20px;
     }
@@ -23,9 +23,9 @@
     h2{
         text-align: center;
         margin-top: 10px;
-        border: 2px solid black;
-        background-color: beige;
-        color: black;
+        border: 2px solid $color-primario;
+        background-color: $color-terciario;
+        color: $color-primario;
     }
 }
 
@@ -37,7 +37,7 @@
 main{
     section{
         h2{
-            color: beige;
+            color: $color-terciario;
             text-align: center;
             font-family: 'Times New Roman', Times, serif;
             font-weight: lighter;
@@ -45,12 +45,12 @@ main{
             font-style: oblique;
         }
         p{
-            color: beige;
+            color: $color-terciario;
             padding: 20px;
             text-align: center;
         }
         ol{
-            color: beige;
+            color: $color-terciario;
             margin: 30px;
             padding: 10px;
             margin-bottom: 40px;
@@ -68,9 +68,9 @@ main{
 
 .boton {
     text-decoration: none;
-    color: black;
-    background-color: beige;
-    border: 1px black solid;
+    color: $color-primario;
+    background-color: $color-terciario;
+    border: 1px $color-primario solid;
     border-radius: 10px;
     padding: 6px;
     width: 245px;
@@ -79,9 +79,9 @@ main{
 
 .boton-dos {
     text-decoration: none;
-    color: black;
-    background-color: beige;
-    border: 1px black solid;
+    color: $color-primario;
+    background-color: $color-terciario;
+    border: 1px $color-primario solid;
     border-radius: 10px;
     padding: 6px;
     width: 245px;

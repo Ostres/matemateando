@@ -110,6 +110,14 @@ main{
 
 .contenedor{
     width: 90%;
+    margin-bottom: 20px;
+    h3{
+        font-size: 23px;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-weight: bold;
+    }
 }
 
 .custom-img-inicio{
@@ -123,11 +131,3 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-
-// .tarjeta-producto{
-//     transition: 2s;
-// }
-
-// .tarjeta-producto:hover{
-//     transform: scale(1.5);
-// }

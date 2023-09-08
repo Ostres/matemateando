@@ -1,12 +1,13 @@
 @media screen and (max-width: 577px) {
     .card {
-        width: 70%;
+        width: 50%;
         margin: 0 auto;
         display: flex;
         justify-content: center;
     }
     .contenedor{
         width: 60%;
+        height: 200px;
         margin-bottom: 25px;
         h3{
             font-size: 18px;
@@ -39,5 +40,26 @@
     }
     main section p{
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .card {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor{
+        width: 90%;
+        height: 450px;
+        margin-bottom: 25px;
+        h3{
+            font-size: 22px;
+            text-align: center;
+            font-family:'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+        }
     }
 }

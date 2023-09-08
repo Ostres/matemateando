@@ -181,23 +181,6 @@ footer {
     text-decoration: underline;
     left: 10px; }
 
-@media screen and (max-width: 577px) {
-  .card {
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center; }
-  .contenedor {
-    width: 60%;
-    height: 200px;
-    margin-bottom: 25px; }
-    .contenedor h3 {
-      font-size: 18px;
-      text-align: center;
-      font-family: 'Times New Roman', Times, serif;
-      font-style: italic;
-      font-weight: bold; } }
-
 @media screen and (max-width: 680px) {
   .title-como-comprar {
     font-size: 35px;
@@ -214,14 +197,73 @@ footer {
   main section p {
     font-size: 15px; } }
 
+@media screen and (max-width: 1075px) {
+  .contenedor {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 25px; }
+    .contenedor h3 {
+      font-size: 22px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-weight: bold; } }
+
 @media screen and (max-width: 991px) {
   .card {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: center; }
   .contenedor {
+    width: 100%;
+    height: 380px;
+    margin-bottom: 25px; }
+    .contenedor h3 {
+      font-size: 18px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-weight: bold; }
+  .custom-img-inicio {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 280px; }
+  .custom-img-catalogo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 280px; } }
+
+@media screen and (max-width: 767px) {
+  .contenedor {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 25px; }
+    .contenedor h3 {
+      font-size: 16px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-weight: bold; }
+  .custom-img-catalogo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 220px; } }
+
+@media screen and (max-width: 577px) {
+  .card {
     width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; }
+  .contenedor {
+    width: 60%;
     height: 450px;
     margin-bottom: 25px; }
     .contenedor h3 {
